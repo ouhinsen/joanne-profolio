@@ -1,0 +1,229 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*{outline: 1px solid  #000};*/
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+h1{
+    font-size: 80px;
+    line-height: 106px;
+    font-weight: bold;
+    color: #fff;
+	padding-bottom: 32px;
+}
+h2{
+    font-size: 64px;
+    line-height: 84px;
+    font-weight: bold;
+}
+h3{
+	font-size: 24px;
+	height: 42px;
+	font-weight: bold;
+}
+p{font-size: 24px;
+	line-height: 36px;
+font-weight: bold;}
+img {
+    vertical-align: middle;
+}
+/*為base 設定*/
+.header{
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week2/banner.png?raw=true);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.title{
+	width: 340px;
+	padding-top: 308px;
+	color: #fff;
+	margin: 0 auto;
+}
+
+.header ul{
+	padding-top: 40px;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 308px;
+
+}
+/*以上為header的css*/
+
+.about{
+	text-align: center;
+	
+}
+.about h2{
+	padding-top: 56px;
+	padding-bottom: 40px;
+	text-align: center;
+
+}
+.about img{
+	width: 384px;
+	height: 384px;
+	padding-bottom: 20px;
+
+}
+.school{
+	line-height: 36px;
+	padding-bottom: 24px;
+	padding-top: 8px;
+	
+}
+.about ul{
+	width: 384px;
+	margin: 0 auto;
+	border-top: 1px solid #000;
+	padding-bottom: 56px;
+}
+.about li{
+	display: flex;
+	padding-top: 28px;
+	justify-content: center;
+	
+}
+.point{
+	background: #891818;
+	width: 22px;
+	height: 22px;
+    border-radius: 50px;
+	
+}
+.about p{
+	padding-left: 16px;
+}
+/* 以上為 about css樣式*/
+
+.brand{
+	background: #000;
+	text-align: center;
+	color: #fff;
+}
+.brand h2{
+	padding-top: 56px;
+	padding-bottom: 12px;
+}
+.brand p{
+	font-size: 20px;
+	line-height: 30px;
+	padding-top: 32px;
+	padding-bottom: 68px;
+	font-weight: none;
+}
+.brand ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-bottom: 120px;
+}
+.brand li{
+	padding-bottom: 40px;
+}
+.cloth2{
+	padding-right: 24px;
+}
+
+/*以上為brand css樣式*/
+.other{
+	text-align: center;
+	padding-bottom: 144px;
+}
+.other h2{
+	padding-top: 56px;
+	padding-bottom: 16px;
+	
+
+}
+.other h3 {
+	font-size: 20px;
+	padding-top: 16px;
+}
+.other p {
+	font-size: 20px;
+	line-height: 30px;
+	
+}
+.poster{
+	display: flex;
+	padding-top: 56px;
+	padding-bottom: 48px;
+	justify-content: space-between;
+}
+.photo{
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 48px;
+}
+.web{
+	display: flex;
+	justify-content: space-between;
+	
+}
+/* 以上為 other css樣式*/
+
+.footer{
+	background: #000;
+	text-align: center;
+	color: #fff;
+}
+.footer ul{
+	padding: 64px 0px;
+
+}
+.footer p{
+	padding-top: 16px;
+
+}
